@@ -1,9 +1,12 @@
 # setwd("~/datasets/titanic")
 
-train <- read.csv('https://raw.githubusercontent.com/raqueeb/mltraining/master/ML-workbook/train.csv')
+
+train <- read.csv('https://raw.githubusercontent.com/iModhu/mltraining/master/ML-workbook/train.csv')
+#train <- read.csv('https://raw.githubusercontent.com/raqueeb/mltraining/master/ML-workbook/train.csv')
 # train <- read.csv("~/datasets/titanic/train.csv")
 # test <- read.csv("~/datasets/titanic/test.csv")
 test <- read.csv('https://raw.githubusercontent.com/raqueeb/mltraining/master/ML-workbook/test.csv')
+#test <- read.csv('https://raw.githubusercontent.com/iModhu/mltraining/master/ML-workbook/train.csv')
 
 # লাইব্রেরি লোড করি - "rpart" হচ্ছে ডিসিশন ট্রি অ্যালগরিদম 
 # (rpart: Recursive Partitioning and Regression Trees)
